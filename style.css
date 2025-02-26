@@ -1,0 +1,33 @@
+body {
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .gameboard {
+    width: 200px; 
+    height: 200px; 
+    background-color: green; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 25px;
+  }
+  
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; /* Optional: adds rounded corners */
+  }
+  
+  a:hover {
+    background-color: #d32f2f; /* Darker red when hovered */
+    color: #fff; /* Keeps the text color white */
+  }
+  
