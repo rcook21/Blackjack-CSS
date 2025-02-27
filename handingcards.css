@@ -1,0 +1,89 @@
+
+#p1_card1{
+    animation: moveCard1_p1;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#p1_card2{
+    animation: moveCard2_p1;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveCard1_p1{
+    0%{transform: translateY(0%);}
+    100%{transform: translate(50%,130%);}
+ }
+
+@keyframes moveCard2_p1{
+    0%{transform: translateY(0%);}
+    100%{transform: translate(60%,130%);}
+}
+
+#p2_card1{
+    animation: moveCard1_p2;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#p2_card2{
+    animation: moveCard2_p2;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes moveCard1_p2{
+    0%{transform: translateY(0%);}
+    100%{transform: translate(100%,90%);}
+}
+
+@keyframes moveCard2_p2{
+    0%{transform: translateY(0%);}
+    100%{transform: translate(110%,90%);}
+}
+
+#p3_card1{
+    animation: moveCard1_p3;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#p3_card2{
+    animation: moveCard2_p3;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes moveCard1_p3{
+    0%{transform: translateY(0%);}
+    100%{transform: translate(-20%,90%);}
+}
+
+@keyframes moveCard2_p3{
+    0%{transform: translateY(0%);}
+    100%{transform: translate(-10%,90%);}
+}
+
+#pd_card1{
+    animation: moveCard1_pd;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#pd_card2{
+    animation: moveCard2_pd;
+    animation-delay: 7s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes moveCard1_pd{
+    0%{transform: translateY(0%);}
+    100%{transform: translate(50%,0%);}
+}
+
+@keyframes moveCard2_pd{
+    0%{transform: translateY(0%);}
+    100%{transform: translate(60%,0%);}
+}
