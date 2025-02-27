@@ -17,6 +17,8 @@ img{
     background-color: green; 
     display: flex;
     border-radius: 25px;
+    display: flex;
+    
   }
   
   a:link, a:visited {
@@ -34,32 +36,40 @@ img{
     color: #fff; 
   }
 
-  .win-screen-blue{
-    width: 150px; 
-    height: 150px; 
-    background-color: rgb(201, 135, 179); 
-    display: inline-block;
+  .win-screen-blue {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(27, 102, 37);
     text-align: center;
     border-radius: 25px;
-  }
+    opacity: 0;
+    animation: showWinScreen 1s ease-in-out forwards;
+    animation-delay: 12s; 
+    z-index: 1; 
+}
     
-  .win-screen-red{
-    width: 150px; 
-    height: 150px; 
-    background-color: rgb(160, 54, 90); 
-    display: inline-block;
+  .win-screen-red {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(160, 54, 90);
     text-align: center;
     border-radius: 25px;
-  }
+    opacity: 0;
+    animation: showWinScreen 1s ease-in-out forwards;
+    animation-delay: 1s; 
+    z-index: 1;
+}
     
-  .win-screen-green{
-    width: 150px; 
-    height: 150px; 
-    background-color: rgb(96, 185, 103); 
-    display: inline-block;
-    text-align: center;
-    border-radius: 25px;
-  }
-    
+.win-screen-green {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(160, 54, 90);
+  text-align: center;
+  border-radius: 25px;
+  opacity: 0;
+  animation: showWinScreen 1s ease-in-out forwards;
+  animation-delay: 12s; 
+  z-index: 1;
+}
 
   
